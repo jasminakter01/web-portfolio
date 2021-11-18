@@ -1,9 +1,14 @@
 body {
   font-family: 'EB Garamond', serif;
+  margin: 0;
 }
 
 h1 {
   font-size: 50px;
+}
+
+section {
+  height: 500px;
 }
 
 .half-width {
@@ -13,11 +18,93 @@ h1 {
   padding-left: 2%;
 }
 
-.half-width .name-higlight {
+.violet-higlight {
   color: #760fbb;
 }
 
-.half-width img {
+.top-banner {
+  background-image: url("images/top-banner.png");
+  background-repeat: no-repeat;
+}
+
+.top-banner .link-button {
+  background-image: linear-gradient(45deg, #ad71f1, #7b17ee);
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.top-banner img {
   width: 100%;
+}
+
+.dream-area {
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.dream-area h1 {
+  font-size: 40px;
+}
+
+.dream-area .name-higlight {
+  color: #760fbb;
+}
+
+.dream-area .link-button {
+  background-image: linear-gradient(45deg, #ad71f1, #7b17ee);
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.dream-area img {
+  width: 100%;
+}
+
+.experiance-area {
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.experiance-area h1 {
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+.experiance-area .single-experience {
+  -webkit-box-shadow: 10px 10px 40px gray;
+          box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  background-color: white;
+  height: 60%;
+  padding: 15px;
+}
+
+.experiance-area #full-stack {
+  border-left: 5px solid;
+  -o-border-image: linear-gradient(180deg, #4503af, #af64e0);
+     border-image: -webkit-gradient(linear, left top, left bottom, from(#4503af), to(#af64e0));
+     border-image: linear-gradient(180deg, #4503af, #af64e0);
+  border-image-slice: 1;
+}
+
+.experiance-area #baby-stack {
+  border-left: 5px solid;
+  -o-border-image: linear-gradient(180deg, #e609ae, #e660c9);
+     border-image: -webkit-gradient(linear, left top, left bottom, from(#e609ae), to(#e660c9));
+     border-image: linear-gradient(180deg, #e609ae, #e660c9);
+  border-image-slice: 1;
+}
+
+.footer-area {
+  text-align: center;
+  font-size: 10px;
 }
 /*# sourceMappingURL=style.css.map */
